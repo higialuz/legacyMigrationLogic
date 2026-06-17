@@ -1,0 +1,13 @@
+{
+  "name": "erp-live",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/functions"],
+  "scripts": {
+    "dev": "sst dev",
+    "deploy": "sst deploy --stage production"
+  },
+  "dependencies": {
+    "sst": "latest"
+  }
+}
