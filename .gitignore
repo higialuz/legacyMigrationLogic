@@ -1,9 +1,36 @@
+# Dependencies
 node_modules/
+
+# Next.js build output
 .next/
 .sst/
 .open-next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
 .env
 .env.*
+
+# OS
 .DS_Store
 ._*
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Deploy
+deploy.sh
+.deployignore
 *.log
+npm-debug.log*
+
+# Files
+AGENTS.md 
+CLAUDE.md 
+LASTSESSION.md 
