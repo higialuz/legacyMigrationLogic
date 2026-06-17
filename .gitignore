@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+MAS/
 
 # Next.js build output
 .next/
@@ -34,3 +35,4 @@ npm-debug.log*
 AGENTS.md 
 CLAUDE.md 
 LASTSESSION.md 
+MAS/
