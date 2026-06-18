@@ -249,7 +249,9 @@ export default function Home() {
           <Chip label="SST v4 · Lambda · CloudFront" size="small" variant="outlined"
             sx={{ ml: 'auto', borderColor: 'rgba(255,255,255,0.2)', color: 'text.secondary', fontSize: '0.7rem' }} />
         </Box>
-        <Tabs value={tab} onChange={(_, v) => setTab(v)} sx={{ '& .MuiTab-root': { fontWeight: 700 } }}>
+        <Tabs value={tab} onChange={(_, v) => setTab(v)}
+          variant="scrollable" scrollButtons="auto" allowScrollButtonsMobile
+          sx={{ '& .MuiTab-root': { fontWeight: 700 } }}>
           <Tab label="🔀 Strangler Fig Router" />
           <Tab label="🧮 Multi-client Billing Rules" />
           <Tab label="🔍 Observability" />
